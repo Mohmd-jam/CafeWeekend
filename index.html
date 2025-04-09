@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منوی دیجیتال WEEKEND</title>
+    <link rel="icon" type="image/jpg" href="images/icon.jpg" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Modern App Bar -->
+    <header class="app-bar">
+        <div class="logo-container">
+            <img src="/images/logo3.jpg" alt="لوگوی WEEKEND" class="logo-img">
+            <div class="logo-text">WEEKEND</div>
+        </div>
+    </header>
+
+    <!-- Intelligent Filters -->
+    <div class="filter-section">
+        <div class="filter-scroll" id="filterContainer">
+            <!-- Filters will be loaded from JSON -->
+        </div>
+    </div>
+
+    <!-- Modern Menu Layout -->
+    <div class="menu-container" id="menuContainer">
+        <!-- Menu content will be loaded from JSON -->
+    </div>
+
+    <!-- Floating Cart Button -->
+    <button class="cart-btn" id="cartButton">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-badge" id="cartBadge">0</span>
+    </button>
+
+    <!-- Cart Modal --><!-- جایگزین کردن بخش سبد خرید با این کد -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-overlay" id="cartOverlay"></div>
+        <div class="cart-center-box">
+            <div class="cart-content">
+                <div class="cart-header">
+                    <h3>سبد خرید شما</h3>
+                    <button class="close-btn" id="closeCart">&times;</button>
+                </div>
+                <div class="cart-items" id="cartItems">
+                    <!-- آیتم‌های سبد خرید اینجا نمایش داده می‌شوند -->
+                </div>
+                <div class="cart-footer">
+                    <div class="cart-total" id="totalPrice">جمع کل: ۰ تومان</div>
+                    <button class="primary-btn" id="exportOrder">ثبت نهایی سفارش</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

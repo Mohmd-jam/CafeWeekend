@@ -1,0 +1,157 @@
+{
+  "filters": [
+    {
+      "id": "all",
+      "name": "همه منو",
+      "default": true
+    },
+    {
+      "id": "Burrger",
+      "name": "برگر"
+    },
+    {
+      "id": "pizza",
+      "name": "پیتزا"
+    },
+    {
+      "id": "appetizers",
+      "name": "پیش غذاها"
+    },
+    {
+      "id": "specials",
+      "name": "پیشنهاد ویژه",
+      "highlight": true
+    },
+    {
+      "id": "mains",
+      "name": "غذای اصلی"
+    },
+    {
+      "id": "hot-drinks",
+      "name": "نوشیدنی گرم"
+    },
+    {
+      "id": "cold-drinks",
+      "name": "نوشیدنی سرد"
+    },
+    {
+      "id": "desserts",
+      "name": "دسرها"
+    }
+  ],
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "پیتزا",
+      "icon": "fas fa-pizza-slice",
+      "items": [
+        {
+          "name": "پیتزا سیر و استیک",
+          "description": "سس گوجه، پنیر موزارلا، ریحان تازه",
+          "price": "420,000 تومان",
+          "image": "images/p-siesteik.jpg",
+          "tags": [
+            "راسته گوساله",
+            "گرم"
+          ]
+        },
+        {
+          "name": "پیتزا پپرونی",
+          "description": "سس گوجه، پنیر موزارلا، پپرونی و فلفل دلمه ای",
+          "price": "550,000 تومان",
+          "image": "images/p-pproni.jpg",
+          "tags": [
+            "غذای اصلی"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Burrger",
+      "name": "برگر",
+      "icon": "fas fa-hamburger",
+      "items": [
+        {
+          "name": "برگر کلاسیک",
+          "description": "گوشت گوساله، پنیر چدار، کاهو، گوجه فرنگی، سس مخصوص",
+          "price": "350,000 تومان",
+          "image": "images/b-sade.jpg",
+          "tags": [
+            "غذای اصلی"
+          ]
+        },
+        {
+          "name": "برگر گیاهی",
+          "description": "پتیتا سیب زمینی، کاهو، گوجه فرنگی، سس مخصوص",
+          "price": "380,000 تومان",
+          "image": "images/vegetarian.jpg",
+          "tags": [
+            "گیاهی"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "name": "پیش غذاها",
+      "icon": "fas fa-utensils",
+      "items": [
+        {
+          "name": "سالاد سزار",
+          "description": "کاهو رومی، سس سزار اختصاصی، پنیر پارمسان، کروتون",
+          "price": "45,000 تومان",
+          "image": "images/sezar.jpg",
+          "tags": [
+            "گیاهی",
+            "سرد"
+          ]
+        },
+        {
+          "name": "سوپ قارچ",
+          "description": "قارچ تازه، خامه، پیاز کاراملی شده، نان تست",
+          "price": "125,000 تومان",
+          "image": "images/soop.jpg",
+          "tags": [
+            "گرم",
+            "پیشنهاد ویژه"
+          ],
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "hot-drinks",
+      "name": "نوشیدنی های گرم",
+      "icon": "fas fa-coffee",
+      "items": [
+        {
+          "name": "چای",
+          "description": "چای سیاه با طعم لیمو",
+          "price": "45,000 تومان",
+          "image": "images/chay.jpg",
+          "tags": [
+            "چای گیلان"
+          ]
+        },
+        {
+          "name": "اسپرسو",
+          "description": "قهوه اسپرسوی خالص با غلظت بالا",
+          "price": "25,000 تومان",
+          "image": "images/cafee.jpg",
+          "tags": [
+            "کافئین بالا"
+          ]
+        },
+        {
+          "name": "لاته",
+          "description": "اسپرسو با شیر بخار داده شده و فوم شیر",
+          "price": "32,000 تومان",
+          "image": "images/Late.jpg",
+          "tags": [
+            "محبوب"
+          ]
+        }
+      ]
+    }
+  ]
+}
