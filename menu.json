@@ -41,6 +41,31 @@
   ],
   "categories": [
     {
+      "id": "Burrger",
+      "name": "برگر",
+      "icon": "fas fa-hamburger",
+      "items": [
+        {
+          "name": "برگر کلاسیک",
+          "description": "گوشت گوساله، پنیر چدار، کاهو، گوجه فرنگی، سس مخصوص",
+          "price": "350,000 تومان",
+          "image": "images/b-sade.jpg",
+          "tags": [
+            "غذای اصلی"
+          ]
+        },
+        {
+          "name": "برگر گیاهی",
+          "description": "پتیتا سیب زمینی، کاهو، گوجه فرنگی، سس مخصوص",
+          "price": "380,000 تومان",
+          "image": "images/vegetarian.jpg",
+          "tags": [
+            "گیاهی"
+          ]
+        }
+      ]
+    },
+    {
       "id": "pizza",
       "name": "پیتزا",
       "icon": "fas fa-pizza-slice",
@@ -62,31 +87,6 @@
           "image": "images/p-pproni.jpg",
           "tags": [
             "غذای اصلی"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "Burrger",
-      "name": "برگر",
-      "icon": "fas fa-hamburger",
-      "items": [
-        {
-          "name": "برگر کلاسیک",
-          "description": "گوشت گوساله، پنیر چدار، کاهو، گوجه فرنگی، سس مخصوص",
-          "price": "350,000 تومان",
-          "image": "images/b-sade.jpg",
-          "tags": [
-            "غذای اصلی"
-          ]
-        },
-        {
-          "name": "برگر گیاهی",
-          "description": "پتیتا سیب زمینی، کاهو، گوجه فرنگی، سس مخصوص",
-          "price": "380,000 تومان",
-          "image": "images/vegetarian.jpg",
-          "tags": [
-            "گیاهی"
           ]
         }
       ]
