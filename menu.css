@@ -40,9 +40,11 @@ body {
 }
 
 .logo-img {
-    height: 50px;
-    width: auto;
-    border-radius: 50px;
+    background: url(images/icon.jpg) no-repeat 100% 100%;
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
 }
 
 .logo-text {
