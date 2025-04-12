@@ -88,7 +88,35 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             });
         });
+// این کد را در انتهای تابع setupEventListeners() قرار دهید
 
+// مشاهده‌گر برای تشخیص بخش‌های قابل مشاهده
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // پیدا کردن فیلتر چیپ مربوط به این بخش
+            const categoryId = entry.target.dataset.category;
+            const correspondingFilter = document.querySelector(`.filter-chip[data-category="${categoryId}"]`);
+            
+            // اگر فیلتر چیپ مربوطه وجود داشت، آن را فعال کنیم
+            if (correspondingFilter) {
+                document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+                correspondingFilter.classList.add('active');
+            }
+        }
+    });
+}, {
+    threshold: 0.5, // وقتی حداقل 50% از بخش در viewport قرار گرفت
+    rootMargin: '-100px 0px -100px 0px' // تنظیم حاشیه برای دقت بیشتر
+});
+
+// مشاهده همه بخش‌های منو
+document.querySelectorAll('.category-section').forEach(section => {
+    observer.observe(section);
+});
+
+// غیرفعال کردن اسکرول صاف برای کل صفحه (اگر نیاز بود)
+document.documentElement.style.scrollBehavior = 'auto';
         // Cart functionality
         let cart = [];
 
