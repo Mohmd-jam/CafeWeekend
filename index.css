@@ -21,12 +21,13 @@ body {
 
 .buttons-container {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     width: 90%;
     max-width: 800px;
-    padding: 15px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     backdrop-filter: blur(5px);
@@ -41,7 +42,9 @@ body {
     font-size: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
-    width: 100%;
+    width: calc(25% - 15px);
+    min-width: 100px;
+    height: 50px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-weight: 600;
@@ -236,14 +239,19 @@ body {
     }
 
     .buttons-container {
-        width: 95%;
+        width: 80%;
         gap: 10px;
         padding: 10px;
+        position: relative;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .action-button {
         padding: 10px 0;
         font-size: 12px;
+        width: 100%;
     }
 
     .action-button i {
@@ -261,9 +269,14 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 376px) {
     .buttons-container {
         border-radius: 15px;
+        width: 65%;
+        gap: 7px;
+        padding: 4px;
+        position: relative;
+        bottom: -20px;
     }
 
     .action-button {

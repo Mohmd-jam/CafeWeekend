@@ -1,16 +1,16 @@
 {
   "filters": [
     {
-      "id": "Caffee-base",
+      "id": "Caffee - base",
       "name": "بر پایه اسپرسو",
       "defult": true
     },
     {
-      "id": "Cold-Caffee-base",
+      "id": "Cold - Caffee - base",
       "name": "نوشیدنی های سرد بر پایه اسپرسو"
     },
     {
-      "id": "Hot-drink",
+      "id": "Hot - drink",
       "name": "نوشیدنی های گرم"
     },
     {
@@ -18,7 +18,7 @@
       "name": "چای"
     },
     {
-      "id": "Cold-drinks",
+      "id": "Cold - drinks",
       "name": "ماکتیل"
     },
     {
@@ -36,37 +36,60 @@
   ],
   "categories": [
     {
-      "id": "Caffee-base",
+      "id": "Caffee - base",
       "name": " بر پایه اسپرسو",
-      "icon": "fas fa",
+      "icon": "     ",
       "items": [
         {
           "name": "اسپرسو",
-          "description": "60عربیا - 40 روبوستا",
-          "price": "80 تومان",
+          "description": "انتخاب لاین قهوه",
+          "price": "بر اساس لاین اسپرسو",
           "image": "",
-          "tags": [""]
-        },
-        {
-          "name": "اسپرسو",
-          "description": "100 عربیکا",
-          "price": "95 تومان",
-          "image": "",
-          "tags": [""]
+          "tags": [""],
+          "variants": [
+            {
+              "name": "60% عربیکا  -  40% روبوستا",
+              "price": "80 تومان"
+            },
+            {
+              "name": "100% عربیکا",
+              "price": "95 تومان"
+            }
+          ]
         },
         {
           "name": "آمریکانو",
           "description": "",
           "price": "بر اساس لاین اسپرسو",
           "image": "",
-          "tags": [""]
+          "tags": [""],
+          "variants": [
+            {
+              "name": "60% عربیکا  -  40% روبوستا",
+              "price": "80 تومان"
+            },
+            {
+              "name": "100% عربیکا",
+              "price": "95 تومان"
+            }
+          ]
         },
         {
           "name": "اسپرسو ماکیاتو",
           "description": "",
           "price": "بر اساس لاین اسپرسو",
           "image": "",
-          "tags": [""]
+          "tags": [""],
+          "variants": [
+            {
+              "name": "60% عربیکا  -  40% روبوستا",
+              "price": "80 تومان"
+            },
+            {
+              "name": "100% عربیکا",
+              "price": "95 تومان"
+            }
+          ]
         },
         {
           "name": "لاته",
@@ -127,9 +150,9 @@
       ]
     },
     {
-      "id": "Cold-Caffee-base",
+      "id": "Cold - Caffee - base",
       "name": "نوشیدنی های سرد بر پایه اسپرسو",
-      "icon": "fas fa-pizza-slice",
+      "icon": "   ",
       "items": [
         {
           "name": "آیس لاته",
@@ -169,9 +192,9 @@
       ]
     },
     {
-      "id": "Hot-drink",
+      "id": "Hot - drink",
       "name": "نوشیدنی های گرم",
-      "icon": "fa-solid fa-mug-saucer",
+      "icon": "fa - solid fa - mug - saucer",
       "items": [
         {
           "name": "هات چاکلت",
@@ -227,7 +250,7 @@
     {
       "id": "Tea",
       "name": "چای",
-      "icon": "fa-solid fa-mug-hot",
+      "icon": "fa - solid fa - mug - hot",
       "items": [
         {
           "name": "چای مراکشی",
@@ -254,41 +277,41 @@
     },
 
     {
-      "id": "Cold-drinks",
+      "id": "Cold - drinks",
       "name": "ماکتیل",
-      "icon": "fas fa-pizza-slice",
+      "icon": "fas fa - pizza - slice",
       "items": [
         {
-          "name": "sour spot",
-          "description": "توت فرنگی-آلبالو-کرنبری-انگور-آلو جنگلی",
+          "name": "sour spot || سور اسپات ",
+          "description": "توت فرنگی - آلبالو - کرنبری - انگور - آلو جنگلی",
           "price": "205 تومان",
           "image": "",
           "tags": [""]
         },
         {
           "name": "sunset",
-          "description": "آلوئه ورا-زرد آلو-آلبالو",
+          "description": "آلوئه ورا - زرد آلو - آلبالو",
           "price": "142 تومان",
           "image": "",
           "tags": [""]
         },
         {
           "name": "hawaii",
-          "description": "پشن فروت-زنجبیل-آناناس-پرتقال",
+          "description": "پشن فروت - زنجبیل - آناناس - پرتقال",
           "price": "145 تومان",
           "image": "",
           "tags": [""]
         },
         {
           "name": "black dream",
-          "description": "سس تند-زرشک-لیمو-آناناس",
+          "description": "سس تند - زرشک - لیمو - آناناس",
           "price": "157 تومان",
           "image": "",
           "tags": [""]
         },
         {
           "name": "domingo",
-          "description": "کرنبری-سیب-بلوکارسائو-آلوئه ورا",
+          "description": "کرنبری - سیب - بلوکارسائو - آلوئه ورا",
           "price": "145 تومان",
           "image": "",
           "tags": [""]
@@ -299,7 +322,7 @@
     {
       "id": "Drink",
       "name": "دمنوش",
-      "icon": "fas fa-pizza-slice",
+      "icon": "     ",
       "items": [
         {
           "name": "دمنوش",
@@ -310,21 +333,21 @@
         },
         {
           "name": "دمنوش عسل گیسو",
-          "description": "لیمو-زنجبیل-عسل",
+          "description": "لیمو - زنجبیل - عسل",
           "price": "120 تومان",
           "image": "",
           "tags": [""]
         },
         {
           "name": "دمنوش دل آرام",
-          "description": "گل گاو زبان-بهلیمو-سنبل الطیب-لیمو خشک-چای کوهی",
+          "description": "گل گاو زبان - بهلیمو - سنبل الطیب - لیمو خشک - چای کوهی",
           "price": "120 تومان",
           "image": "",
           "tags": [""]
         },
         {
           "name": "دمنوش ملک تاج",
-          "description": "گل گاو زبان-زعفران-آویشن",
+          "description": "گل گاو زبان - زعفران - آویشن",
           "price": "130 تومان",
           "image": "",
           "tags": [""]

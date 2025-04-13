@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     let cart = []; // Moved cart to global scope within the DOMContentLoaded
 
-    fetch('menu.json')
+    fetch('restraurant.json')
         .then(response => response.json())
         .then(data => {
             renderFilters(data.filters);
